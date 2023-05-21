@@ -11,7 +11,7 @@ from Test_Data import Data
 from selenium.webdriver.chrome.options import Options
 
 
-class Test_guvi_AT_9_project_2:
+class guvi_AT_9_project_2:
     url = "https://opensource-demo.orangehrmlive.com/"
     option = Options()
     option.headless = False
