@@ -9,7 +9,7 @@ from selenium.webdriver.support import expected_conditions as EC
 from Test_Data import Data
 
 
-class guvi_AT_9_project_2_check:
+class Test_guvi_AT_9_project_2_check:
     url = "https://opensource-demo.orangehrmlive.com/"
     def __init__(self):
         #self.url=url
@@ -18,4 +18,4 @@ class guvi_AT_9_project_2_check:
         self.driver.maximize_window()
         time.sleep(5)
 
-c = guvi_AT_9_project_2_check()
+c = Test_guvi_AT_9_project_2_check()
